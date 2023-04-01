@@ -64,7 +64,6 @@ function yourage(){
 
 function ProfilePicture(){
         let Change = confirm("Do you want to use a custom profile picture?");
-        // If the user agrees to share their personal information
         if (Change) {
             let pic = prompt("Please enter the file namee of the picture: (Ex. wow.jpg)");
             
